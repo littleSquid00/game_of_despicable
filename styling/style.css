@@ -1,0 +1,64 @@
+h1 {
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p {
+  color: white;
+  text-align: center;
+}
+
+body {
+  background-image: url("../images/House.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 200px 250px;
+  grid-auto-rows: minmax(150px, auto);
+  grid-row-gap: 20px;
+  grid-column-gap: 10px;
+  justify-content: center;
+}
+.grid-item-1 {
+  grid-column-start: 2;
+}
+.grid-item-2 {
+  grid-column-start: 4;
+}
+.grid-item-3 {
+  grid-column-start: 1;
+}
+.grid-item-4 {
+  grid-column-start: 3;
+}
+.grid-item-5 {
+  grid-column-start: 5;
+}
+.grid-item-6 {
+  grid-column-start: 2;
+}
+.grid-item-7 {
+  grid-column-start: 4;
+}
+.grid-item-8 {
+  grid-column-start: 1;
+}
+.grid-item-9 {
+  grid-column-start: 5;
+}
+
+.squid figcaption {
+  position: relative;
+  top: -50px;
+  background-color: pink;
+}
+.squid:hover img,
+.squid.hover img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
